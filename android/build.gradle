@@ -24,6 +24,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 33
 
+    namespace 'com.flutter.video_thumbnail.namespace'
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
